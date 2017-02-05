@@ -4,7 +4,8 @@
   "description": "Help animals house to get their animals adopted.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build",
+    "watch": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,26 @@
   "bugs": {
     "url": "https://github.com/20Heroes/animazens-doghouse/issues"
   },
-  "homepage": "https://github.com/20Heroes/animazens-doghouse#readme"
+  "homepage": "https://github.com/20Heroes/animazens-doghouse#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-environments": "^0.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8",
+    "rimraf": "^2.5.4",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
 }
